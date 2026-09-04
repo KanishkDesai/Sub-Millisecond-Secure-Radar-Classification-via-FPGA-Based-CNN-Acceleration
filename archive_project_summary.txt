@@ -1,0 +1,412 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = CNN_Accelerator_AMD
+Directory = C:/Users/Kanishk Ravi Desai/CNN_Accelerator_AMD
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+<impl_1_copy_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+None
+
+<sim_1>
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_55.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_47.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_04.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_20.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_12.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_30.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_22.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer3_dense1_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e5_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_39.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer7_dense3_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_06.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_19.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_49.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_40.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_10.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e0_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_53.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_24.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e6_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_37.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_17.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_09.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_34.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer9_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_51.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e4_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_43.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_60.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_00.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e7_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_26.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_58.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer8_w1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_62.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_32.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_02.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_15.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_45.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_28.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_03.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_38.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_21.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_05.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_48.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_56.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e2_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer5_dense2_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_13.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_36.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_23.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_54.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_07.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e1_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_11.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_41.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_42.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_08.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_16.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_25.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_18.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_35.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer8_w0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_52.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_61.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e3_bias.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_31.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_44.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_14.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_57.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_27.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_01.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_29.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_46.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_59.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/layer8_w2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_63.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_33.mem
+C:/Users/Kanishk Ravi Desai/Downloads/weights_biases/weights_biases/mem_files/neuron_50.mem
+C:/Users/Kanishk Ravi Desai/Downloads/drone0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/drone1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/car2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/people0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/car0.mem
+C:/Users/Kanishk Ravi Desai/Downloads/people1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/car1.mem
+C:/Users/Kanishk Ravi Desai/Downloads/people2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/drone2.mem
+C:/Users/Kanishk Ravi Desai/Downloads/people3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/car3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/drone3.mem
+C:/Users/Kanishk Ravi Desai/Downloads/car4.mem
+C:/Users/Kanishk Ravi Desai/Downloads/drone4.mem
+C:/Users/Kanishk Ravi Desai/Downloads/people4.mem
+
+<sources_1>
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/new/aes_128_top.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/imports/new/aes_addroundkey_128.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/new/aes_key_round.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/new/aes_key_schedule_unrolled.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/imports/new/aes_mixcolumns_128.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/imports/new/aes_shiftrows_128.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/imports/new/aes_standard_round.v
+C:/Users/Kanishk Ravi Desai/Downloads/AES_2.xpr/project_1/project_1.srcs/sources_1/imports/new/aes_subbytes_128.v
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/new/aes_128_top.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/imports/new/aes_addroundkey_128.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/new/aes_key_round.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/new/aes_key_schedule_unrolled.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/imports/new/aes_mixcolumns_128.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/imports/new/aes_shiftrows_128.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/imports/new/aes_standard_round.v
+./CNN_Accelerator_AMD.srcs/sources_1/imports/sources_1/imports/new/aes_subbytes_128.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/classifier3.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/controller_fsm.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/conv_cluster.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/conv_engine.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/dense_cluster.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/dense_engine.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/dense_fsm.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/dense_top.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/featuremap_banks.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/top.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/weight_mem.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/window_generator.v
+./CNN_Accelerator_AMD.srcs/sources_1/new/final_top.v
+
+<constrs_1>
+./CNN_Accelerator_AMD.srcs/constrs_1/new/clock_constraint.xdc
+
+<sim_1>
+./CNN_Accelerator_AMD.srcs/sim_1/new/tb_final.v
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_55.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_47.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_04.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_20.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_12.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_30.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_22.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer3_dense1_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e5_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_39.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer7_dense3_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_06.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_19.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_49.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_40.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_10.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e0_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_53.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_24.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e6_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_37.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_17.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_09.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_34.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer9_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_51.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e4_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_43.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_60.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_00.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e7_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_26.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_58.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer8_w1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_62.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_32.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_02.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_15.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_45.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_28.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_03.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_38.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_21.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_05.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_48.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_56.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e2_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer5_dense2_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_13.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_36.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_23.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_54.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_07.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e1_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_11.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_41.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_42.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e4_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e2_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_08.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_16.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_25.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_18.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_35.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e6_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e1_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer8_w0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_52.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_61.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e5_f2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e3_bias.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_31.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_44.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e3_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_14.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_57.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_27.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_01.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e7_f3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_29.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_46.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_59.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/layer8_w2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/conv_e0_f0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_63.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_33.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/weights_biases/weights_biases/mem_files/neuron_50.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/drone0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/drone1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/car2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/people0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/car0.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/people1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/car1.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/people2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/drone2.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/people3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/car3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/drone3.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/car4.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/drone4.mem
+./CNN_Accelerator_AMD.srcs/sim_1/imports/Downloads/people4.mem
+
+<utils_1>
+./CNN_Accelerator_AMD.srcs/utils_1/imports/synth_1/conv_engine.dcp
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/Kanishk Ravi Desai/CNN_Accelerator_AMD/vivado.jou
+Archived Location = ./CNN_Accelerator_AMD/vivado.jou
+
+Source File = C:/Users/Kanishk Ravi Desai/CNN_Accelerator_AMD/vivado.log
+Archived Location = ./CNN_Accelerator_AMD/vivado.log
+

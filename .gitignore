@@ -1,0 +1,28 @@
+# Vivado generated project data
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+*.dcp
+*.rpx
+*.rpt
+*.vds
+*.xml
+*.xsim.dir/
+*.cache/
+*.runs/
+*.hw/
+*.ipdefs/
+*.sim/
+
+# Generated Vivado source and utility trees
+*_generated/
+*_gen/
+*.gen/
+
+# Operating-system files
+Thumbs.db
+Desktop.ini
