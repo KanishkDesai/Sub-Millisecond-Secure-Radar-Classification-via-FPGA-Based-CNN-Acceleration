@@ -118,6 +118,3 @@ The repository tracks the Vivado project descriptor, RTL sources, constraints, t
 
 The design should be treated as an RTL reference implementation until timing closure, functional equivalence, resource utilization, and end-to-end classification accuracy have been independently reproduced on the target board and Vivado installation.
 
-## License
-
-No license file is currently included. Add an explicit license before redistributing this project for external use.
